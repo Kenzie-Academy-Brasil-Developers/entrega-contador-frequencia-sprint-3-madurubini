@@ -37,9 +37,18 @@ button.addEventListener("click", function() {
         letters.appendChild(span); 
      }
 
-     
-     
+      
                  
 });
+
+// const buttonReset = document.getElementById("resetButton");
+// buttonReset.addEventListener("click", function(){
+//     let typedText = document.getElementById("textInput").value;
+//     typedText = typedText.toLowerCase(); 
+//     typedText = typedText.replace(/[^a-z'\s]+/g, ""); 
+//      typedText = {};
+   
+
+// })
 
 

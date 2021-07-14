@@ -1,0 +1,89 @@
+body{
+    margin: 5px auto;
+    text-align: center;
+}
+
+#content {
+    border: 1px solid black;
+    max-width: 95vw;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #81b29a;
+    color: #3d405b;
+    font-family:  Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#content textarea{
+    max-width: 70%;
+
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #f2cc8f;
+    color: #3d405b;
+    margin: 5px 0;
+    
+    
+}
+
+button:hover{
+    font-weight: bold;
+    border: 1px solid transparent;
+    background-color:#e07a5f;
+    
+}
+
+h3{
+    width: 100%;
+    font-variant: small-caps;
+}
+
+#lettersDiv{
+  
+    width: 60%;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#lettersDiv:hover{
+    font-weight: bold;
+    border: 1px dotted #f2cc8f;
+}
+
+#lettersDiv span{
+    
+    width: 25%;
+    text-align: center;
+}
+
+#wordsDiv{
+  
+    width: 60%;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#wordsDiv:hover{
+  
+   font-weight: bold;
+   border: 1px dotted #f2cc8f;
+}
+
+#wordsDiv span{
+    padding: 1px;
+    max-width: 50%;
+    text-align: center;
+    margin: 1px 0;
+}

@@ -4,16 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Contador de Frequência</title>
 </head>
 <body>
+    
     <div id="content">
+        <h1>Contador de Letras e Palavras</h1>
+        <p>Adicione seu texto abaixo e descubra!!!</p>
         <textarea rows="15" cols="60" placeholder="Digite o seu texto aqui..." id="textInput"></textarea>
         <br/>  
         <button id="countButton">Contador de Frequência</button>
+       <!--<button id="resetButton" type="reset">Resetar</button>--> 
 
-        <div id="lettersDiv"></div>
-        <div id="wordsDiv"></div>
+        <div id="lettersDiv">
+            <h3>Frequencia das Letras</h3>
+        </div>
+        <div id="wordsDiv">
+            <h3>Frequencia das Palavras</h3>
+        </div>
     </div>
     
     <script src="script.js">
