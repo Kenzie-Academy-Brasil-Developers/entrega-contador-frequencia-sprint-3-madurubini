@@ -87,3 +87,22 @@ h3{
     text-align: center;
     margin: 1px 0;
 }
+
+@media (min-width: 768px){
+    body{
+        font-size: 20px;
+        font-variant: small-caps;
+        font-weight: bold;
+        
+    }
+
+    #content{
+        background-color: #f2cc8f;
+    }
+
+    button{
+        background-color: #81b29a;
+    }
+
+    
+}
